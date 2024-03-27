@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "c782290c019d2bc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "56ed45f5da21b304",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ec21c8f0265ae41",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Linux 命令.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d53d6839c4141c7d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-DTS 设备树.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7eea6527ac986f5a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "驱动学习.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a0d138455b00ec38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1245a614345db132",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bc92922617f57ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9486467af9f9caa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96690c563fb05a88",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f06e5a67eb33ed10",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "ed9f220792ade94a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad49b3adb8c2bb94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e92e06c33d7c3965",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "面试.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7ddc932dfc252dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "面试.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecb923dfd5b96a07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "79d829904a8e7a0d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "面试.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "a0d138455b00ec38",
+  "lastOpenFiles": [
+    "驱动学习.md",
+    "0-附.md",
+    "5-DTS 设备树.md",
+    "2-GCC.md",
+    "3-静态库和动态库.md",
+    "1-Linux 命令.md",
+    "Linux课程笔记.md",
+    "面试.md",
+    "6-GPIO-STM32.md",
+    "attachment/Pasted image 20230405220935.png",
+    "attachment/Pasted image 20230405221036.png",
+    "attachment/Pasted image 20230405221254.png",
+    "attachment/Pasted image 20230405221617.png",
+    "attachment/Pasted image 20230405222013.png",
+    "attachment/image-20230402194453807.png",
+    "语法.md",
+    "2023-04-16.md",
+    "4-Makefile.md",
+    "测试.md",
+    "attachment/Pasted image 20230405220849.png",
+    "attachment/Pasted image 20230405204023.png",
+    "attachment/Pasted image 20230405203754.png",
+    "attachment/Pasted image 20230405203508.png",
+    "Linux常用命令/Linux课程笔记.md",
+    "Lunix命令/Lunix基础命令.md",
+    "GCC/GCC.md",
+    "Lunix命令/C++提高编程.md",
+    "Lunix命令/assets",
+    "Excalidraw/Drawing 2023-04-04 16.16.13.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-04 16.13.08.excalidraw.md",
+    "Excalidraw",
+    "Lunix命令",
+    "GCC",
+    "image-20230402195059589.md",
+    "attachment",
+    "Linux常用命令"
+  ]
+}

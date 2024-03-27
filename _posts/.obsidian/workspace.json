@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "c782290c019d2bc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b810a1ce9744a29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c5e44688aebe32a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gcc修炼-第1节.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1245a614345db132",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bc92922617f57ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9486467af9f9caa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96690c563fb05a88",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f06e5a67eb33ed10",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "18c7c1708373b262",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ed9f220792ade94a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad49b3adb8c2bb94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e92e06c33d7c3965",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "gcc修炼-第1节.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7ddc932dfc252dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "gcc修炼-第1节.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecb923dfd5b96a07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "79d829904a8e7a0d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "gcc修炼-第1节.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false
+    }
+  },
+  "active": "2c5e44688aebe32a",
+  "lastOpenFiles": [
+    "Linux命令.md",
+    "gcc修炼——第1节.md",
+    "gcc修炼-第1节.md",
+    "gcc修炼-第1节",
+    "8af5eedd71c05782187f5b0b01ad29ca_MD5.jpeg",
+    "Pasted image 20240205150035.png",
+    "fc81ec4f3b390a718d9f921c56e31774_MD5.jpeg",
+    "Pasted image 20240205145011.png",
+    "22602bf26de9816e5a2503cec3564e1b_MD5.jpeg",
+    "Pasted image 20240204174428.png",
+    "e37fbd3c6f1eeeeb2b71e2f185dda897_MD5.jpeg",
+    "Pasted image 20240204174332.png",
+    "e1b3c2286a0efb6814362d755a1c1089_MD5.jpeg",
+    "Pasted image 20240204174211.png",
+    "frp内网穿透-使用记录.md",
+    "ComposeMine.zip",
+    "Attachments",
+    "frp内网穿透-使用记录",
+    "DSP/3key_points/DSP_core 升降采样.md",
+    "DSP/3key_points/串行 IO 数据格式.md",
+    "PRAM 固件读写问题.md",
+    "0Chores",
+    "DSP/2TDM8inSL16_IISout/过程记录.md",
+    "DSP/3key_points",
+    "DSP/key_points",
+    "DSP/未命名.md",
+    "DSP/2TDM8inSL16_IISout",
+    "DSP/1需求/HM7&H5.md",
+    "DSP/1需求/需求梳理.md",
+    "DSP/1需求",
+    "DSP",
+    "C语言本质1.md",
+    "C语言入门1.md",
+    "使用我的hexo.md",
+    "资料收集.md",
+    "电路-1电路和电路模型.md",
+    "hexo使用.md",
+    "hello-world.md",
+    "Linux-线程.md",
+    "ceshi.md",
+    "hexo的使用.md",
+    "fff.md",
+    "Java-线程.md",
+    "test.md",
+    "HelloWorld.md",
+    "记录.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "工作记录/Canvas/dcpg-iclk-itiming.sh.canvas",
+    "工作记录/Canvas/dcpg-dsiclk-itiming.sh.canvas",
+    "工作记录/Canvas/dcpg-dsiclk-dsitiming.sh.canvas",
+    "工作记录/Canvas/未命名.canvas"
+  ]
+}

@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# 获取输入参数
+file=$1
+
+if [ -n "$file" ]; then
+
+  # 如果有参数,直接处理指定文件
+  mtime=`stat -c %Y "$file"`
+  if [[ $mtime -gt $(($(date +%s) - 18000)) ]]; then
+  
+    current_time=$(date +"%Y-%m-%d %H:%M:%S")
+  
+    sed -i "s/^updated: .*/updated: $current_time/" "$file"
+
+    echo "$file was modified within 5 hours"
+
+  else
+  
+    echo "$file was not modified within 5 hours"
+
+  fi
+
+else
+
+  # 没有输入参数时,处理所有文件
+  
+  mdfiles=`find . -name "*.md"`
+
+  for file in $mdfiles
+  do
+  
+    mtime=`stat -c %Y "$file"`
+
+    if [[ $mtime -gt $(($(date +%s) - 18000)) ]]; then
+    
+      current_time=$(date +"%Y-%m-%d %H:%M:%S")
+    
+      sed -i "s/^updated: .*/updated: $current_time/" "$file"
+    
+      echo "$file was modified within 5 hours"
+
+    fi
+
+  done
+
+fi

@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ../..
+hexo clean && hexo g && hexo d
