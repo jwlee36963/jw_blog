@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b810a1ce9744a29",
+        "id": "e78aedf1c63668e9",
         "type": "tabs",
         "children": [
           {
-            "id": "2c5e44688aebe32a",
+            "id": "548bb380049e4446",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gcc修炼-第1节.md",
+                "file": "frp内网穿透-使用记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ed9f220792ade94a",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gcc修炼-第1节.md",
+                "file": "frp内网穿透-使用记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gcc修炼-第1节.md",
+                "file": "frp内网穿透-使用记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gcc修炼-第1节.md"
+                "file": "frp内网穿透-使用记录.md"
               }
             }
           }
@@ -143,69 +142,68 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "2c5e44688aebe32a",
+  "active": "a9486467af9f9caa",
   "lastOpenFiles": [
-    "Linux命令.md",
-    "gcc修炼——第1节.md",
     "gcc修炼-第1节.md",
-    "gcc修炼-第1节",
-    "8af5eedd71c05782187f5b0b01ad29ca_MD5.jpeg",
-    "Pasted image 20240205150035.png",
-    "fc81ec4f3b390a718d9f921c56e31774_MD5.jpeg",
-    "Pasted image 20240205145011.png",
-    "22602bf26de9816e5a2503cec3564e1b_MD5.jpeg",
-    "Pasted image 20240204174428.png",
-    "e37fbd3c6f1eeeeb2b71e2f185dda897_MD5.jpeg",
-    "Pasted image 20240204174332.png",
-    "e1b3c2286a0efb6814362d755a1c1089_MD5.jpeg",
-    "Pasted image 20240204174211.png",
-    "frp内网穿透-使用记录.md",
-    "ComposeMine.zip",
-    "Attachments",
-    "frp内网穿透-使用记录",
-    "DSP/3key_points/DSP_core 升降采样.md",
-    "DSP/3key_points/串行 IO 数据格式.md",
-    "PRAM 固件读写问题.md",
-    "0Chores",
-    "DSP/2TDM8inSL16_IISout/过程记录.md",
-    "DSP/3key_points",
-    "DSP/key_points",
-    "DSP/未命名.md",
-    "DSP/2TDM8inSL16_IISout",
-    "DSP/1需求/HM7&H5.md",
+    "gcc修炼-第2节.md",
+    "Linux命令.md",
+    "DSP/3key_points/5-ERROR_CHECK.md",
+    "Attachments/f8a73ebed3c8463ef74fd0fa86d9f633_MD5.jpeg",
+    "DSP/3key_points/Pasted image 20240322115256.png",
+    "DSP/3key_points/4-Mixer_Block.md",
+    "DSP/3key_points/3-DSP_core 升降采样.md",
+    "DSP/3key_points/2-DSP_Block.md",
+    "DSP/3key_points/1-串行 IO 数据格式.md",
     "DSP/1需求/需求梳理.md",
-    "DSP/1需求",
-    "DSP",
-    "C语言本质1.md",
-    "C语言入门1.md",
-    "使用我的hexo.md",
-    "资料收集.md",
-    "电路-1电路和电路模型.md",
-    "hexo使用.md",
-    "hello-world.md",
-    "Linux-线程.md",
-    "ceshi.md",
-    "hexo的使用.md",
-    "fff.md",
-    "Java-线程.md",
-    "test.md",
-    "HelloWorld.md",
-    "记录.md",
+    "DSP/1需求/HM7&H5.md",
+    "DSP/2TDM8inSL16_IISout/过程记录.md",
+    "MCU.md",
+    "Temp/2KeyPoints/README.md",
+    "Temp/0BasicKnowledge/README.md",
+    "Temp/1TranslatePerSeg/README.md",
+    "Temp/3OutKnowledge/README.md",
+    "Temp/3OutKnowledge",
+    "Temp/2KeyPoints",
+    "Temp/1TranslatePerSeg",
+    "Temp/0BasicKnowledge",
+    "Temp",
+    "Audio/0PreKnowledge",
+    "Audio",
+    "DSP/未命名",
+    "Attachments/image-20231106181228268.png",
+    "Attachments/image-20231106181208709.png",
+    "Attachments/image-20231106181121606.png",
+    "Attachments/image-20231106180804264.png",
+    "Attachments/image-20231106180734755.png",
+    "Attachments/image-20231106180615189.png",
+    "Attachments/image-20231106180555534.png",
+    "Attachments/image-20231106180437924.png",
+    "ZZ9/XWOS配置(win).md",
+    "ZZ9/PRAM 固件读写问题.md",
+    "www.baidu.com.md",
+    "RDMS_SOL文档/SOL.001.002.005.md",
+    "RDMS_SOL文档/SOL.001.002.007.md",
+    "RDMS_SOL文档/UART.md",
+    "RDMS_SOL文档/SOL.001.002.004.md",
+    "ZZ9",
+    "RDMS_SOL文档/iic.md",
+    "RDMS_SOL文档/uart.md",
+    "gcc修炼——第1节.md",
+    "gcc修炼-第1节",
     "未命名.canvas",
     "未命名 1.canvas",
     "工作记录/Canvas/dcpg-iclk-itiming.sh.canvas",
