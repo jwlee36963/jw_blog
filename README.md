@@ -19,3 +19,4 @@
 - 对于站点资源的修改，比如：修改网站的背景图、首页 slogan 和 icon 等，都要将修改后的 `blog` 文件夹压缩为新的 `blog.zip` 替换掉原来的 `blog.zip`，再进行 commit、push。
 - git 仓库设置了 gitignore 忽略掉了 `blog` 文件夹。
 - `jdeploy_git` `jnew_post` 等 shell 脚本的操作需要安装 nodejs、nodejs/hexo、git 等环境。
+- 在 `_posts` 和 `blog/source/_posts` 之间使用 `cp` 命令时应加上 `-p` 选项以保留脚本的权限属性，例如：`cp -rfp _posts blog/source`。
