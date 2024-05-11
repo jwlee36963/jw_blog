@@ -11,7 +11,7 @@ categories:
   - DIY
 abbrlink: 75cc0c49
 date: 2024-02-01 13:56:42
-updated: 2024-02-01 14:11:02
+updated: 2024-05-11 21:23:24
 ---
 
 > 使用内网穿透进行远程 ssh 访问
@@ -142,3 +142,17 @@ WantedBy=multi-user.target
 例如：
 
 ![](36ec4a0fd428863e0efeee2536b28cde_MD5.jpeg)
+
+## 附
+
+最近 fedora40 发布了，想装个试一下。在按照此篇教程重新配置 frpc 的时候出现了一些问题。
+
+在设置好守护进程后，frpc 并没有正常运行，使用 `sudo systemctl status frpc.services` 看到 `(code=exited, status=203/EXEC)` 的错误，网上查了一下是 SELinux 的原因，需要将 SELinux 关闭。
+
+还有一种办法不用关闭 SELinux ：
+
+- 移动 `frpc` 到 `/usr/local/bin/` 下，然后再运行 `restorecon -Rv /usr/local/bin` 
+
+最终解决问题！
+
+> [解决办法文章](https://blog.csdn.net/FaceThePast/article/details/133793704?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-133793704-blog-135368044.235%5Ev43%5Epc_blog_bottom_relevance_base7&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-133793704-blog-135368044.235%5Ev43%5Epc_blog_bottom_relevance_base7&utm_relevant_index=1) 、[解决办法文章1](https://unix.stackexchange.com/questions/664811/systemd-service-failing-with-exit-code-status-203-exec)

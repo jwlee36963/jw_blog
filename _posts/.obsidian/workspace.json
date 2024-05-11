@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用软件安装配置.md",
+                "file": "frp内网穿透-使用记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ed9f220792ade94a",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装配置.md",
+                "file": "frp内网穿透-使用记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装配置.md",
+                "file": "frp内网穿透-使用记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用软件安装配置.md"
+                "file": "frp内网穿透-使用记录.md"
               }
             }
           }
@@ -160,6 +159,7 @@
   },
   "active": "548bb380049e4446",
   "lastOpenFiles": [
+    "常用软件安装配置.md",
     "dir_posts",
     "dir_home",
     "jcopy_posts~",
@@ -170,9 +170,7 @@
     "jjump_posts~",
     "jjump_posts",
     "jjump_home~",
-    "jjump_home",
     "gcc修炼-第1节.md",
-    "常用软件安装配置.md",
     "frp内网穿透-使用记录.md",
     "gcc修炼-第2节.md",
     "Linux命令.md",
