@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ed9f220792ade94a",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "frp内网穿透-使用记录.md"
+                "file": "常用软件安装配置.md"
               }
             }
           }
@@ -142,23 +143,37 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a9486467af9f9caa",
+  "active": "548bb380049e4446",
   "lastOpenFiles": [
+    "dir_posts",
+    "dir_home",
+    "jcopy_posts~",
+    "posts",
+    "home",
+    "j.jump_posts",
+    "j.jump_home",
+    "jjump_posts~",
+    "jjump_posts",
+    "jjump_home~",
+    "jjump_home",
     "gcc修炼-第1节.md",
+    "常用软件安装配置.md",
+    "frp内网穿透-使用记录.md",
     "gcc修炼-第2节.md",
     "Linux命令.md",
     "DSP/3key_points/5-ERROR_CHECK.md",
@@ -176,14 +191,6 @@
     "Temp/0BasicKnowledge/README.md",
     "Temp/1TranslatePerSeg/README.md",
     "Temp/3OutKnowledge/README.md",
-    "Temp/3OutKnowledge",
-    "Temp/2KeyPoints",
-    "Temp/1TranslatePerSeg",
-    "Temp/0BasicKnowledge",
-    "Temp",
-    "Audio/0PreKnowledge",
-    "Audio",
-    "DSP/未命名",
     "Attachments/image-20231106181228268.png",
     "Attachments/image-20231106181208709.png",
     "Attachments/image-20231106181121606.png",
@@ -199,11 +206,6 @@
     "RDMS_SOL文档/SOL.001.002.007.md",
     "RDMS_SOL文档/UART.md",
     "RDMS_SOL文档/SOL.001.002.004.md",
-    "ZZ9",
-    "RDMS_SOL文档/iic.md",
-    "RDMS_SOL文档/uart.md",
-    "gcc修炼——第1节.md",
-    "gcc修炼-第1节",
     "未命名.canvas",
     "未命名 1.canvas",
     "工作记录/Canvas/dcpg-iclk-itiming.sh.canvas",
