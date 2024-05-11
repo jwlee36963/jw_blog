@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# 检查上一层路径中是否存在blog/source/_posts文件夹
+if [ -d "../blog/source/_posts" ]; then
+    rm -rf ../blog/source/_posts/* ../blog/source/_posts/.*
+    cp -rfp .* * ../blog/source/_posts/
+    echo "Files copied successfully."
+else
+    echo "Error: 'blog/source/_posts' directory not found."
+fi
+

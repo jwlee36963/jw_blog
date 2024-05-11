@@ -1,5 +1,18 @@
 #!/bin/bash
-cd ../..
-git config --local user.name "jw.lee"
-git config --local user.email "jwlee36963@gmail.com"
-hexo clean && hexo g && hexo d
+
+# 判断上一层路径中是否存在blog文件夹
+if [ -d "../blog" ]; then
+    # 如果存在，则切换到blog文件夹
+    cd ../blog/
+    
+    # 配置Git用户名和邮箱
+    git config --local user.name "jw.lee"
+    git config --local user.email "jwlee36963@gmail.com"
+    
+    # 执行Hexo相关命令
+    hexo clean && hexo g && hexo d
+else
+    # 如果blog文件夹不存在，则输出提示信息
+    echo "Error: Directory '../blog' not found."
+fi
+

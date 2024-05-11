@@ -1,2 +1,21 @@
 #!/bin/bash
-hexo new post $1
+
+# 切换到上一层路径
+cd ..
+
+# 检查是否存在名为“blog”的文件夹
+if [ -d "blog" ]; then
+    # 进入相应目录
+    cd blog/source/_posts/
+    # 检查是否成功进入目录
+    if [ $? -eq 0 ]; then
+        # 创建新文章
+        hexo new post $1
+	cp -rf $1* ~/jw_blog/_posts
+    else
+        echo "Error: Failed to enter 'blog/source/_posts/' "
+    fi
+else
+    echo "Error: '../blog' directory not found "
+fi
+
