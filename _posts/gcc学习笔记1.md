@@ -1,5 +1,5 @@
 ---
-title: gcc修炼-第1节
+title: gcc学习笔记1
 index_img: /img/index/gnu_gcc.png
 banner_img: /img/banner/c_program.jpg
 tags:
@@ -7,8 +7,8 @@ tags:
   - GCC
   - C
 categories:
-  - gcc修炼手册
-abbrlink: ce9bc550
+  - gcc学习
+abbrlink: 4e3171ca
 date: 2024-02-05 15:05:35
 updated: 2024-02-05 16:41:04
 ---
@@ -83,4 +83,5 @@ void hello(const char* str)
 **当你最后执行链接阶段（使用 `gcc main.c hello.c -o hello`）时，编译器会查找 `hello` 函数的实现。** 这时，编译器看到了 `main.c` 中的调用 `hello("呵呵，ojbk");`，然后会在整个工程中搜索包含了 `hello` 函数实现的文件。**由于你同时编译了 `hello.c`，所以编译器找到了 `hello` 函数的实现。** —— *正是因为同时将 `main.c` 和 `hello.c` 放在一起编译（`gcc main.c hello.c -o hello`）所以才不报错。*
 
 最终，链接器将 `main.o` 和 `hello.o` 这两个目标文件合并，生成了可执行文件 `hello`。
+
 
