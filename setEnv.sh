@@ -9,14 +9,16 @@ git config --local core.autocrlf false
 # 保持blog/source_posts为最新
 # 检查当前路径是否有blog文件夹,有则切换到blog目录
 if [ -d "blog" ]; then
-  cd blog
+  cd blog/source
 else
-  echo "当前路径下没有blog文件夹,无法切换."
-  exit 1
+  if [ -f "blog.zip" ]; then
+    unzip blog.zip
+    cd blog/source
+  else
+    echo "ERROR:没有blog文件夹和blog.zip文件"
+    exit 1
+  fi
 fi
-
-# 切换到source目录
-cd source
 
 # 删除_posts目录
 if [ -d "_posts" ]; then
