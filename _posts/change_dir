@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# 获取当前路径的父节点名称
+parent_dir=$(basename "$(dirname "$PWD")")
+
+# 检查父节点是否是 jw_blog
+if [ "$parent_dir" = "jw_blog" ]; then
+    cd ../blog/source/_posts/
+else
+    cd ../../../_posts/
+fi
+

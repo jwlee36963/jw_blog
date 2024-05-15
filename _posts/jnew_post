@@ -12,7 +12,7 @@ if [ -d "blog" ]; then
         # 创建新文章
         hexo new post $1
 	touch $1/.gitkeep
-	cp -rf $1* ~/jw_blog/_posts
+	cp -rf $1* ../../../_posts/
     else
         echo "Error: Failed to enter 'blog/source/_posts/' "
     fi

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+. jcopy_posts
+
 # 判断上一层路径中是否存在blog文件夹
 if [ -d "../blog" ]; then
     # 如果存在，则切换到blog文件夹
