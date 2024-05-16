@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ed9f220792ade94a",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "frp内网穿透-使用记录.md"
+                "file": "常用软件安装配置.md"
               }
             }
           }
@@ -159,6 +160,7 @@
   },
   "active": "548bb380049e4446",
   "lastOpenFiles": [
+    "frp内网穿透-使用记录.md",
     "常用软件安装配置.md",
     "dir_posts",
     "dir_home",
@@ -171,7 +173,6 @@
     "jjump_posts",
     "jjump_home~",
     "gcc修炼-第1节.md",
-    "frp内网穿透-使用记录.md",
     "gcc修炼-第2节.md",
     "Linux命令.md",
     "DSP/3key_points/5-ERROR_CHECK.md",
