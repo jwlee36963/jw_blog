@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ -z "$1" ]; then
+  echo "不更新文章时间"
+else
+  echo "$1 更新时间"
+  . jupdate_time $1
+fi
+
 . jcopy_posts
 
 # 判断上一层路径中是否存在blog文件夹
