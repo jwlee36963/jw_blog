@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "frp内网穿透-使用记录.md",
+                "file": "常用软件安装配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "frp内网穿透-使用记录.md"
+                "file": "常用软件安装配置.md"
               }
             }
           }
@@ -159,6 +159,7 @@
   },
   "active": "f4691ec906546940",
   "lastOpenFiles": [
+    "frp内网穿透-使用记录.md",
     "常用软件安装配置.md",
     "frp内网穿透-使用记录/cb48e711cc8de269bbc0f3592df21c0a_MD5.jpeg",
     "frp内网穿透-使用记录/b53fa024875ecaa01d19bbf7c1ed6e0e_MD5.jpeg",
@@ -170,7 +171,6 @@
     "frp内网穿透-使用记录/6ab1a7e48358d10033cd8c100bee4dbb_MD5.jpeg",
     "frp内网穿透-使用记录/5ee686c92f4042c799cc21d7b58e6761_MD5.jpeg",
     "frp内网穿透-使用记录/3c199aac7cbfd9da40b7b055fc837520_MD5.jpeg",
-    "frp内网穿透-使用记录.md",
     "dir_posts",
     "dir_home",
     "jcopy_posts~",
