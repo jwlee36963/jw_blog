@@ -13,11 +13,11 @@ if [ -n "$file" ]; then
   
     sed -i "s/^updated: .*/updated: $current_time/" "$file"
 
-    echo "$file was modified within 5 hours"
+    echo "jblog: $file was modified within 5 hours"
 
   else
   
-    echo "$file was not modified within 5 hours"
+    echo "jblog: $file was not modified within 5 hours"
 
   fi
 
@@ -38,7 +38,7 @@ else
     
       sed -i "s/^updated: .*/updated: $current_time/" "$file"
     
-      echo "$file was modified within 5 hours"
+      echo "jblog: $file was modified within 5 hours"
 
     fi
 

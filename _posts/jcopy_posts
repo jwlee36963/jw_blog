@@ -4,7 +4,7 @@
 if [ -d "../blog/source/_posts" ]; then
     rm -rf ../blog/source/_posts/* ../blog/source/_posts/.*
     cp -rfp .* * ../blog/source/_posts/
-    echo "Files copied successfully."
+    echo "jblog: Files copied successfully."
 else
     echo "Error: 'blog/source/_posts' directory not found."
 fi
