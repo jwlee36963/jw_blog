@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e78aedf1c63668e9",
+        "id": "3343f1e3af662844",
         "type": "tabs",
         "children": [
           {
-            "id": "548bb380049e4446",
+            "id": "f4691ec906546940",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常用软件安装配置.md",
+                "file": "frp内网穿透-使用记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ed9f220792ade94a",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用软件安装配置.md",
+                "file": "frp内网穿透-使用记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "常用软件安装配置.md",
+                "file": "frp内网穿透-使用记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用软件安装配置.md"
+                "file": "frp内网穿透-使用记录.md"
               }
             }
           }
@@ -158,10 +157,20 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "548bb380049e4446",
+  "active": "f4691ec906546940",
   "lastOpenFiles": [
-    "frp内网穿透-使用记录.md",
     "常用软件安装配置.md",
+    "frp内网穿透-使用记录/cb48e711cc8de269bbc0f3592df21c0a_MD5.jpeg",
+    "frp内网穿透-使用记录/b53fa024875ecaa01d19bbf7c1ed6e0e_MD5.jpeg",
+    "frp内网穿透-使用记录/afd713590a8abd299f012d8d7932c42d_MD5.jpeg",
+    "frp内网穿透-使用记录/833eaec4fe82ab68b6b75e32e30e49ea_MD5.jpeg",
+    "frp内网穿透-使用记录/114f2d6e1fe7bfce68d305524913e43c_MD5.jpeg",
+    "frp内网穿透-使用记录/38e6254556ea3130f974c07fc9701bbe_MD5.jpeg",
+    "frp内网穿透-使用记录/36ec4a0fd428863e0efeee2536b28cde_MD5.jpeg",
+    "frp内网穿透-使用记录/6ab1a7e48358d10033cd8c100bee4dbb_MD5.jpeg",
+    "frp内网穿透-使用记录/5ee686c92f4042c799cc21d7b58e6761_MD5.jpeg",
+    "frp内网穿透-使用记录/3c199aac7cbfd9da40b7b055fc837520_MD5.jpeg",
+    "frp内网穿透-使用记录.md",
     "dir_posts",
     "dir_home",
     "jcopy_posts~",
@@ -176,8 +185,6 @@
     "gcc修炼-第2节.md",
     "Linux命令.md",
     "DSP/3key_points/5-ERROR_CHECK.md",
-    "Attachments/f8a73ebed3c8463ef74fd0fa86d9f633_MD5.jpeg",
-    "DSP/3key_points/Pasted image 20240322115256.png",
     "DSP/3key_points/4-Mixer_Block.md",
     "DSP/3key_points/3-DSP_core 升降采样.md",
     "DSP/3key_points/2-DSP_Block.md",
@@ -190,14 +197,6 @@
     "Temp/0BasicKnowledge/README.md",
     "Temp/1TranslatePerSeg/README.md",
     "Temp/3OutKnowledge/README.md",
-    "Attachments/image-20231106181228268.png",
-    "Attachments/image-20231106181208709.png",
-    "Attachments/image-20231106181121606.png",
-    "Attachments/image-20231106180804264.png",
-    "Attachments/image-20231106180734755.png",
-    "Attachments/image-20231106180615189.png",
-    "Attachments/image-20231106180555534.png",
-    "Attachments/image-20231106180437924.png",
     "ZZ9/XWOS配置(win).md",
     "ZZ9/PRAM 固件读写问题.md",
     "www.baidu.com.md",

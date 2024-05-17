@@ -88,7 +88,7 @@ Wants=network.target
 [Service]
 Type=simple
 Restart=on-failure
-RestartSec=5s
+RestartSec=5
 ExecStart=/你的路径/frps -c /你的路径/frps.toml
 
 [Install]
@@ -96,8 +96,6 @@ WantedBy=multi-user.target
 ```
 
 >只需要针对你的路径修改 \[Service\] 下的 `ExecStart`，其余的不用修改
-
-![](fc984d1f1c751c24e90b6b1c29fb4b93_MD5.jpeg)
 
 然后运行 `sudo systemctl daemon-reload` 和 `sudo systemctl enable --now frps.service` 以启用 frps 开机自启。
 
@@ -114,7 +112,7 @@ Wants=network.target
 [Service]
 Type=simple
 Restart=on-failure
-RestartSec=5s
+RestartSec=5
 ExecStart=/你的路径/frpc -c /你的路径/frpc.toml
 
 [Install]
@@ -122,8 +120,6 @@ WantedBy=multi-user.target
 ```
 
 >只需要针对你的路径修改 \[Service\] 下的 `ExecStart`
-
-![](35b5acb29b8ff252d159c3106436a010_MD5.jpeg)
 
 然后运行 `sudo systemctl daemon-reload` 和 `sudo systemctl enable --now frpc.service` 以启用 frpc 开机自启。
 
