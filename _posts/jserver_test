@@ -1,0 +1,16 @@
+#!/bin/bash
+
+. jcopy_posts
+
+# 判断上一层路径中是否存在blog文件夹
+if [ -d "../blog" ]; then
+    # 如果存在，则切换到blog文件夹
+    cd ../blog/
+    
+    # 执行Hexo相关命令
+    hexo clean && hexo g && hexo s
+else
+    # 如果blog文件夹不存在，则输出提示信息
+    echo "Error: Directory '../blog' not found."
+fi
+
