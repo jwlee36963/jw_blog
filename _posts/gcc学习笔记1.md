@@ -15,7 +15,7 @@ updated: 2024-02-05 16:41:04
 
 > 此文章是 gcc 学习笔记，[学习视频](https://www.bilibili.com/video/BV1Y8411M7fp/?p=3&spm_id_from=pageDriver&vd_source=d28f6fad4261fe5abca485f4a556dbc1)
 
-## 1. 多文件编译
+## 1 多文件编译
 
 目录结构如下：
 
