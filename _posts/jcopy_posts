@@ -3,6 +3,8 @@
 # 检查上一层路径中是否存在blog/source/_posts文件夹
 if [ -d "../blog/source/_posts" ]; then
     rm -rf ../blog/source/_posts/* ../blog/source/_posts/.*
+    rm -rf ../blog/source/img
+    cp -rf ../img ../blog/source
     cp -rfp .* * ../blog/source/_posts/
     echo "jblog: Files copied successfully."
 else

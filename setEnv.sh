@@ -23,6 +23,7 @@ fi
 # 删除_posts目录
 if [ -d "_posts" ]; then
   rm -rf "_posts"
+  rm -rf img
 else
   echo "source目录下没有_posts目录,无需删除."
 fi
@@ -33,6 +34,7 @@ cd ../..
 # 将_posts目录复制到blog/source目录
 if [ -d "_posts" ]; then
   cp -rfp "_posts" "blog/source"
+  cp -rf img blog/source
 else
   echo "当前路径下没有_posts目录,无法复制."
 fi
