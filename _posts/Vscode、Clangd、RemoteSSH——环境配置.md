@@ -3,7 +3,7 @@ title: Vscode、Clangd、RemoteSSH——环境配置
 index_img: /img/index/clangd.png
 banner_img: /img/banner/vscode.jpg
 date: 2024-05-24 17:01:21
-updated: 2024-05-24 17:01:21
+updated: 2024-05-27 13:20:44
 tags:
 - clangd
 - lsp
@@ -31,7 +31,9 @@ categories:
 
 > 需要先将 VScode 中的所有 C/C++ 插件禁用或卸载
 
-在 VScode 中打开设置：
+在 VScode 的插件里面搜索 “Clangd” 并且安装。
+
+打开 VScode 设置：
 
 ![](911d5ef43a63ee4d32ac535e675f78c1_MD5.jpeg)
 
